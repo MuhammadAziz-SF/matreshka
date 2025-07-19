@@ -4,181 +4,57 @@
     <meta charset="UTF--8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafe Menu</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Icons (Example: Font Awesome) -->
     <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-
-    <!-- ==================== HEADER ==================== -->
     <header class="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">
-                <img src="https://via.placeholder.com/40" alt="Cafe Logo">
-                The Cafe
+                <img src="./assets/logo.svg" alt="Cafe Logo">
+                AKSARAY
             </a>
         </nav>
     </header>
 
     <main>
-        <!-- ==================== HERO SECTION ==================== -->
         <section class="hero">
             <div class="hero__container container">
                 <div class="hero__content">
-                    <h1 class="hero__title">Welcome to Our Cafe</h1>
+                    <h1 class="hero__title">Добро пожаловать в AKSARAY</h1>
                     <p class="hero__description">
-                        Freshly made food, delicious desserts, and refreshing drinks. Take a look at our full menu below.
+                        Свежеприготовленные блюда, вкусные десерты и освежающие напитки. Ознакомьтесь с нашим полным меню ниже.
                     </p>
-                    <a href="#menu" class="button button-primary">View Full Menu</a>
+                    <a href="#menu" class="button button-primary">Посмотреть полное меню</a>
                 </div>
 
                 <div class="hero__image">
-                    <img src="https://i.imgur.com/uRkPDmY.png" alt="Cafe food and interior collage">
                 </div>
             </div>
         </section>
 
-        <!-- ==================== OUR MENU ==================== -->
+        
         <section class="menu section" id="menu">
-            <h2 class="section__title">Our Menu</h2>
-            
-            <div class="menu__container container">
-
-                <!-- ===== Category 1: Morning Food ===== -->
-                <div class="menu__category">
-                    <h3 class="menu__category-title">Morning Food</h3>
-                    <div class="menu__grid">
-                        <div class="menu__card">
-                            <img src="https://i.imgur.com/lMocYjV.png" alt="Pancakes" class="menu__img">
-                            <div class="menu__price">$8</div>
-                            <h4 class="menu__name">Pancakes</h4>
-                            <p class="menu__description">Fluffy pancakes with syrup and berries.</p>
-                        </div>
-                        <div class="menu__card">
-                            <img src="https://i.imgur.com/gAXXA8A.png" alt="Semolina Porridge" class="menu__img">
-                            <div class="menu__price">$6</div>
-                            <h4 class="menu__name">Semolina Porridge</h4>
-                            <p class="menu__description">Creamy porridge with a touch of cinnamon.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ===== Category 2: First Meal ===== -->
-                <div class="menu__category">
-                    <h3 class="menu__category-title">First Meal</h3>
-                    <div class="menu__grid">
-                        <div class="menu__card">
-                            <img src="https://i.imgur.com/dK5z0Mr.png" alt="Chicken Soup" class="menu__img">
-                            <div class="menu__price">$9</div>
-                            <h4 class="menu__name">Chicken Soup</h4>
-                            <p class="menu__description">Classic comforting chicken noodle soup.</p>
-                        </div>
-                        <div class="menu__card">
-                            <img src="https://i.imgur.com/p6b4kP7.png" alt="Greek Salad" class="menu__img">
-                            <div class="menu__price">$11</div>
-                            <h4 class="menu__name">Greek Salad</h4>
-                            <p class="menu__description">Fresh vegetables, olives, and feta cheese.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ===== Category 3: Second Meal ===== -->
-                <div class="menu__category">
-                    <h3 class="menu__category-title">Second Meal</h3>
-                    <div class="menu__grid">
-                        <div class="menu__card">
-                            <img src="https://i.imgur.com/lMocYjV.png" alt="Beef Steak" class="menu__img">
-                            <div class="menu__price">$24</div>
-                            <h4 class="menu__name">Beef Steak</h4>
-                            <p class="menu__description">Grilled steak with a side of potatoes.</p>
-                        </div>
-                        <div class="menu__card">
-                            <img src="https://i.imgur.com/dK5z0Mr.png" alt="Salmon Fillet" class="menu__img">
-                            <div class="menu__price">$22</div>
-                            <h4 class="menu__name">Salmon Fillet</h4>
-                            <p class="menu__description">Oven-baked salmon with fresh herbs.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ===== Category 4: Kebabs ===== -->
-                <div class="menu__category">
-                    <h3 class="menu__category-title">Kebabs</h3>
-                    <div class="menu__grid">
-                        <div class="menu__card">
-                            <img src="https://i.imgur.com/gAXXA8A.png" alt="Lamb Kebab" class="menu__img">
-                            <div class="menu__price">$18</div>
-                            <h4 class="menu__name">Lamb Kebab</h4>
-                            <p class="menu__description">Juicy lamb skewers with grilled vegetables.</p>
-                        </div>
-                        <div class="menu__card">
-                            <img src="https://i.imgur.com/p6b4kP7.png" alt="Chicken Kebab" class="menu__img">
-                            <div class="menu__price">$16</div>
-                            <h4 class="menu__name">Chicken Kebab</h4>
-                            <p class="menu__description">Tender chicken marinated in spices.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ===== Category 5: Desserts ===== -->
-                <div class="menu__category">
-                    <h3 class="menu__category-title">Desserts</h3>
-                    <div class="menu__grid">
-                        <div class="menu__card">
-                            <img src="https://i.imgur.com/dK5z0Mr.png" alt="Cheesecake" class="menu__img">
-                            <div class="menu__price">$7</div>
-                            <h4 class="menu__name">Cheesecake</h4>
-                            <p class="menu__description">Creamy New York style cheesecake.</p>
-                        </div>
-                        <div class="menu__card">
-                            <img src="https://i.imgur.com/gAXXA8A.png" alt="Chocolate Cake" class="menu__img">
-                            <div class="menu__price">$7</div>
-                            <h4 class="menu__name">Chocolate Cake</h4>
-                            <p class="menu__description">A rich, decadent slice of our signature cake.</p>
-                        </div>
-                    </div>
-                </div>
-
-                 <!-- ===== Category 6: Mojitos ===== -->
-                 <div class="menu__category">
-                    <h3 class="menu__category-title">Mojitos</h3>
-                    <div class="menu__grid">
-                        <div class="menu__card">
-                            <img src="https://i.imgur.com/lMocYjV.png" alt="Classic Mojito" class="menu__img">
-                            <div class="menu__price">$12</div>
-                            <h4 class="menu__name">Classic Mojito</h4>
-                            <p class="menu__description">Fresh mint, lime, sugar, and white rum.</p>
-                        </div>
-                        <div class="menu__card">
-                            <img src="https://i.imgur.com/p6b4kP7.png" alt="Strawberry Mojito" class="menu__img">
-                            <div class="menu__price">$13</div>
-                            <h4 class="menu__name">Strawberry Mojito</h4>
-                            <p class="menu__description">A sweet twist with fresh strawberries.</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            <h2 class="section__title">МЕНЮ</h2>
+            <div class="menu__container container"></div>
         </section>
     </main>
 
-    <!-- ==================== FOOTER ==================== -->
     <footer class="footer">
         <div class="footer__container container">
             <div class="footer__content">
                 <div class="footer__section footer__section-about">
                     <a href="#" class="footer__logo">
-                        <img src="https://via.placeholder.com/40" alt="Cafe Logo">
-                        The Cafe
+                        <img src="./assets/logo.svg" alt="Cafe Logo">
+                        AKSARAY
                     </a>
-                    <p>Serving our community with the finest coffee and pastries since 2020.</p>
                 </div>
                 <div class="footer__section">
-                    <h3 class="footer__title">Address</h3>
+                    <h3 class="footer__title">Адрес</h3>
                     <p>123 Coffee Lane<br>Bean Town, CA 90210</p>
                 </div>
                 <div class="footer__section">
-                    <h3 class="footer__title">Follow Us</h3>
+                    <h3 class="footer__title">Следуйте за нами</h3>
                     <div class="footer__social">
                         <a href="#" class="social__link"><i class="fab fa-facebook-f"></i></a>
                         <a href="#" class="social__link"><i class="fab fa-instagram"></i></a>
@@ -188,10 +64,10 @@
             </div>
             
             <div class="footer__bottom">
-                <p>© 2025 The Cafe. All Rights Reserved.</p>
+                <p>© 2025 AKSARAY. Все права защищены.</p>
             </div>
         </div>
     </footer>
-
+    <script src="./js/app.js"></script>
 </body>
 </html>
